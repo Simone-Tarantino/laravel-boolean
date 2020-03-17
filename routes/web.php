@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/students', 'StudentPageController@Index')->name('students');
+
+Route::get('/students/show', 'StudentPageController@Show')->name('students.show');
