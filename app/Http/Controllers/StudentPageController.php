@@ -85,4 +85,11 @@ class StudentPageController extends Controller
 
         return view('students', compact('students'));
     }
+
+    public function Show()
+    {
+        $prova = 'prova';
+
+        return view('show', compact('prova'));
+    }
 }
