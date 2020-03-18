@@ -8,13 +8,16 @@
         <title>Laravel Boolean</title>
     </head>
     <body>
-        <nav>
-            <img src="https://www.boolean.careers/images/common/logo.png" alt="logo-boolean">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Corso</a></li>
-                <li><a href="">Dopo il corso</a></li>
-                <li><a href="">Lezione gratuita</a></li>
-                <li><a href="">Canditati ora</a></li>
-            </ul>
-        </nav>
+        <header>
+            <nav>
+                <img src="https://www.boolean.careers/images/common/logo.png" alt="logo-boolean">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Corso</a></li>
+                <li><a href="{{route('students')}}">Dopo il corso</a></li>
+                    <li><a href="">Lezione gratuita</a></li>
+                    <li><a href="">Canditati ora</a></li>
+                </ul>
+            </nav>
+        </header>
+        
