@@ -37,6 +37,7 @@ body nav ul li {
 
 body nav ul li a {
   text-transform: uppercase;
+  color: #1B3C59;
 }
 
 body main {
@@ -54,6 +55,10 @@ body main .student-info {
   background-color: white;
   padding: 20px;
   border-radius: 3px;
+}
+
+body main .student-info a {
+  color: #1e517e;
 }
 
 body main .student-info .info-top {

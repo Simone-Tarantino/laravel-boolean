@@ -8,6 +8,7 @@ class StudentPageController extends Controller
 {
 
     private $students;
+    private $gender;
 
     function __construct()
     {
@@ -84,6 +85,12 @@ class StudentPageController extends Controller
                 'description' => 'Per supportare la famiglia, Simone inizia a lavorare come operaio da giovanissimo. Fortemente motivato a cambiare vita, per 6 mesi non stacca mai lo sguardo dal traguardo, distinguendosi per tenacia e resilienza.',
                 'gender' => 'm'
             ]
+        ];
+
+        $this->gender = [
+            'male' => 'm',
+            'female' => 'f',
+            'all' => 'all'
         ];
     }
 
